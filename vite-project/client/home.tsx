@@ -62,7 +62,7 @@ export default function Home() {
           <div className="flex justify-end px-4 mt-5   text-black font-bold   gap-6 ">
             <a
               className="  block transition-all
-              group-duration-400 group-hover:scale-105   group-hover:bg-blue-800
+              duration-400 group-hover:scale-105   group-hover:bg-blue-800
       group-hover:text-white  xl:h-10
               xl:w-30 py-2   xl:rounded-4xl "
               href="#"
@@ -96,12 +96,13 @@ export default function Home() {
                 className="
       absolute
       top-14
-      xl:right-[-160%]
-      xl:w-320
-      xl:h-20
+      xl:right-[-246%]
+      xl:w-342
+      xl:h-15
       bg-blue-800
       shadow-lg
-      p-2
+      p-4
+      
       z-60
     invisible opacity-0
   group-hover:visible group-hover:translate-y-1 group-hover:opacity-100
@@ -113,31 +114,31 @@ export default function Home() {
   
     "
               >
-                <div className=" grid grid-cols-5 ">
+                <div className=" grid grid-cols-5 xl:w-250   xl:ml-80">
                   <a
                     href="#profil"
-                    className="block p-3  transition-all duration-400 
-    
+                    className="block p-0  transition-all duration-400 
+    xl:w-40 hover:bg-black
     ease-in-out
-     group-hover:opacity-500 hover:text-zinc-400"
+    "
                   >
                     Dewan Direksi
                   </a>
 
                   <a
                     href="#visi"
-                    className="block p-3 transition-all duration-400 
+                    className="block hover:bg-black p-0 transition-all duration-400 xl:w-40
     
     ease-in-out
-     group-hover:opacity-500 hover:text-zinc-400"
+     "
                   >
                     Dewan Komisaris
                   </a>
 
                   <a
                     href="#sejarah"
-                    className="block p-3 transition-all duration-400 
-    
+                    className="block p-0 transition-all duration-400 
+    xl:w-40 hover:bg-black
     ease-in-out
      group-hover:opacity-500 hover:text-zinc-400"
                   >
@@ -146,8 +147,8 @@ export default function Home() {
 
                   <a
                     href="#sejarah"
-                    className="block p-3 transition-all duration-400 
-    
+                    className="block p-0 transition-all duration-400 
+    hover:bg-black xl:w-40
     ease-in-out
      group-hover:opacity-500 hover:text-zinc-400"
                   >
